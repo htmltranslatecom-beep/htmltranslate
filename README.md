@@ -11,6 +11,14 @@
 - Works directly in your browser — nothing is stored on the server  
 
 ---
+## ⚠️ Known Issues
+
+### Position Absolute Limitation
+Files containing main DOM elements with `position: absolute` style may currently fail to translate correctly. We are actively working on resolving this issue. 
+
+**Workaround:** Consider removing or modifying absolute positioning from the main content container before translation.
+
+---
 
 ## 📜 Changelog
 
