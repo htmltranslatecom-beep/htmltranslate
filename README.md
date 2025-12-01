@@ -22,6 +22,16 @@ Files containing main DOM elements with `position: absolute` style may currently
 
 ## 📜 Changelog
 
+### [v1.0.2] - December 2025 (01.12.2025)
+
+#### 🛠️ Fixes
+* **File Encoding Support:** Fixed a critical issue where files with non-UTF-8 encoding (Windows-1251, ISO-8859-1, UTF-16, etc.) caused translation failures with `UnicodeDecodeError`. The system now automatically detects and handles multiple character encodings, ensuring successful processing of HTML files created in different editors and operating systems.
+* **HTM File Extension Support:** Improved file type detection to properly accept both `.html` and `.htm` file extensions for translation.
+
+#### ⚡ Improvements
+* Added informational notice about static HTML file support and limitations with JavaScript-generated dynamic content
+* Enhanced file reading robustness with fallback encoding mechanisms
+
 ### [v1.0.1] - November 2025 (30.11.2025)
 
 #### 🛠️ Fixes
