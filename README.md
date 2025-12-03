@@ -22,6 +22,16 @@ Files containing main DOM elements with `position: absolute` style may currently
 
 ## 📜 Changelog
 
+### v1.0.3 (December 3, 2025)
+
+#### ✨ Improvements
+- 🌍 **Expanded Language Support**: Added **116 new languages** (from 134 to 250 total languages)
+  - Rare African, Asian, and Oceanic languages (Acehnese, Fijian, Lingala, Tok Pisin, etc.)
+  - Regional variants: French (Canada), Portuguese (Portugal), Dari
+  - Dialects and scripts: Cantonese, Jamaican Patois, Malay (Jawi), Bambara (N'Ko)
+  - Languages of Russia and neighboring regions: Avar, Buryat, Chechen, Tuvan, etc.
+
+
 ### [v1.0.2] - December 2025 (01.12.2025)
 
 #### 🛠️ Fixes
