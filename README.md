@@ -22,7 +22,7 @@ Files containing main DOM elements with `position: absolute` style may currently
 
 ## 📜 Changelog
 
-### v1.0.3 (December 3, 2025)
+### [v1.0.3] - December 2025 (03.12.2025)
 
 #### ✨ Improvements
 - 🌍 **Expanded Language Support**: Added **116 new languages** (from 134 to 250 total languages)
