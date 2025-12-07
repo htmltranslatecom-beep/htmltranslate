@@ -23,7 +23,7 @@ Files containing main DOM elements with `position: absolute` style may currently
 ## 📜 Changelog
 
 ### [v1.0.4] - December 2025 (07.12.2025)
-* **Fixes**
+#### 🛠️ Fixes
 * **HTM File Translation Bug**: Fixed a critical issue where users uploading .htm files received the original untranslated file with a .html extension instead of the translated version. The system now correctly preserves the original file extension (.htm or .html) in the translated output and always returns the translated file.
 
 ### [v1.0.3] - December 2025 (03.12.2025)
