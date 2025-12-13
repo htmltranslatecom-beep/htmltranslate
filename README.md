@@ -22,6 +22,23 @@ Files containing main DOM elements with `position: absolute` style may currently
 
 ## 📜 Changelog
 
+### [v1.0.5] - December 2025 (13.12.2025)
+
+#### ✨ New Features
+- **Deferred Translation Links**: For longer translations (multiple languages or large files), you now receive a download link immediately. No need to wait on the page - bookmark the link and return later to download your translated files.
+
+#### 🐛 Bug Fixes
+- Fixed translation failures caused by `<noscript>` tags and other special HTML elements at the end of documents
+- Resolved issue where ZIP archives were downloading with incorrect `.zip.html` extension
+- Improved handling of malformed HTML files with structural errors
+
+#### 🎨 Improvements
+- Enhanced progress tracking with detailed language-by-language updates
+- Added file name and target languages display on download page
+- Better error handling for edge cases in HTML structure
+
+---
+
 ### [v1.0.4] - December 2025 (07.12.2025)
 #### 🛠️ Fixes
 * **HTM File Translation Bug**: Fixed a critical issue where users uploading .htm files received the original untranslated file with a .html extension instead of the translated version. The system now correctly preserves the original file extension (.htm or .html) in the translated output and always returns the translated file.
